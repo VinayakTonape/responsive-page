@@ -1,0 +1,22 @@
+[
+  {
+    "sectionId": 1,
+    "sectionName": "FASHION",
+    "sectionUrl": "fashion.jpg"
+  },
+  {
+    "sectionId": 2,
+    "sectionName": "TRAVEL",
+    "sectionUrl": "/fashion.jpg"
+  },
+  {
+    "sectionId": 3,
+    "sectionName": "BEAUTY",
+    "sectionUrl": "/fashion.jpg"
+  },
+  {
+    "sectionId": 4,
+    "sectionName": "ADVERTISEMENT",
+    "sectionUrl": "/"
+  }
+]

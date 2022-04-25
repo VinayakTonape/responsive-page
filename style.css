@@ -1,0 +1,118 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 780px;
+}
+
+.parent-article {
+  width: 67%;
+}
+
+.parent-article-label {
+  padding: 10px;
+  display: block;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 640px) {
+  .main-container {
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+  }
+
+  .app-container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .parent-article {
+    width: 100% !important;
+  }
+
+  .side-container {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 981px) {
+  .grid_items {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+.side-container {
+  width: 33%;
+}
+
+.side-item-container {
+  display: flex;
+  min-height: 70px;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: solid 1px #f1efef;
+  margin-top: 10px;
+}
+
+.side-image {
+  width: 30px;
+}
+
+.card {
+  height: 350px;
+  width: 200px;
+  position: relative;
+  margin: 5px 10px;
+  padding: 0px 10px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: 0.3s ease-in-out;
+}
+
+.card-header {
+  padding: 5px 0px;
+}
+
+.image-container {
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+.image {
+  width: 100%;
+}
+
+.art-item {
+  padding: 5px 0px;
+  border-bottom: solid 1px #f1efef;
+  min-height: 30px;
+  font-size: 11px;
+}
+
+.more {
+  justify-content: center;
+  align-items: center;
+  color: #ef1a1a;
+  display: flex;
+  min-height: 30px;
+}

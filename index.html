@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive-Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="app-container">
+      <div class="parent-article">
+        <label class="parent-article-label">LIFESTYLE ></label>
+        <div id="contentPlaceHolder" class="main-container"></div>
+      </div>
+      <div id="sidebarContainer" class="side-container"></div>
+    </div>
+
+    <template id="article-template">
+      <div class="card">
+        <label class="card-header"></label>
+        <div class="image-container">
+          <img class="image" id="artImg" />
+        </div>
+        <div class="article-container">
+          <div class="art-item" id="art1"></div>
+          <div class="art-item" id="art2"></div>
+          <div class="art-item" id="art3"></div>
+          <div class="art-item" id="art4"></div>
+          <div class="more" id="more">See All</div>
+        </div>
+      </div>
+    </template>
+
+    <template id="side-article-template">
+      <div class="side-item-container">
+        <div class="side-item-label"></div>
+        <img class="side-image" id="artSideImg" />
+      </div>
+    </template>
+  </body>
+</html>
